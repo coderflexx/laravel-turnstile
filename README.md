@@ -163,7 +163,7 @@ return [
 __PS__: If you want to translate the message, just copy the message and translate it, because it uses the translator method behind the scene.
 
 
-## Reallife Example
+## Real Life Example
 In your blade file
 
 ```blade
