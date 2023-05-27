@@ -163,6 +163,56 @@ return [
 __PS__: If you want to translate the message, just copy the message and translate it, because it uses the translator method behind the scene.
 
 
+## Reallife Example
+In your blade file
+
+```blade
+<form action="" method="post">
+    @csrf
+    <div>
+        <input type="text" name="name" />
+        @error('name')
+            <p class="error">{{ $message }}</p>
+        @enderror
+    </div>
+
+    <div>
+        <x-turnstile-widget theme="auto" language="fr"/>
+        @error('cf-turnstile-response')
+            <p class="error">{{ $message }}</p>
+        @enderror
+    </div>
+
+    <button>Submit</button>
+</form>
+```
+
+In your controller:
+
+```php
+use Coderflex\LaravelTurnstile\Rules\TurnstileCheck;
+use Coderflex\LaravelTurnstile\Facades\LaravelTurnstile;
+
+...
+
+public function store(Request $request)
+{
+    $request->validate([
+        'name' => ['required', 'string', 'max:250'],
+        'cf-turnstile-response' => ['required', new TurnstileCheck()],
+    ]);
+
+    // or
+    $response = LaravelTurnstile::validate();
+
+    if (! $response['success']) {
+        // do your thing.
+    }
+
+    // do your things.
+}
+```
+
 ## Testing
 
 ```bash
