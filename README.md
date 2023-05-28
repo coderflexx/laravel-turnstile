@@ -39,9 +39,9 @@ return [
     | @see: https://developers.cloudflare.com/turnstile/get-started/#get-a-sitekey-and-secret-key
     |
     */
-    'turnstile_site_key' => env('TRUNSTILE_SITE_KEY', null),
+    'turnstile_site_key' => env('TURNSTILE_SITE_KEY', null),
 
-    'turnstile_secret_key' => env('TRUNSTILE_SECRET_KEY', null),
+    'turnstile_secret_key' => env('TURNSTILE_SECRET_KEY', null),
 
     /*
     |--------------------------------------------------------------------------
@@ -71,11 +71,11 @@ php artisan vendor:publish --tag="turnstile-views"
 ## Turnstile Keys
 To be able to use __Cloudflare Turnstile__, you need to get the `SiteKey`, and the `SecretKey` from your [Cloudflare dashboard](https://developers.cloudflare.com/turnstile/get-started/#get-a-sitekey-and-secret-key)
 
-After Generating the __keys__, use `TRUNSTILE_SITE_KEY`, and `TRUNSTILE_SECRET_KEY` in your `.env` file
+After Generating the __keys__, use `TURNSTILE_SITE_KEY`, and `TURNSTILE_SECRET_KEY` in your `.env` file
 
 ```.env
-TRUNSTILE_SITE_KEY=2x00000000000000000000AB
-TRUNSTILE_SECRET_KEY=2x0000000000000000000000000000000AA
+TURNSTILE_SITE_KEY=2x00000000000000000000AB
+TURNSTILE_SECRET_KEY=2x0000000000000000000000000000000AA
 ```
 
 If you want to test the widget, you can use the [Dummy site keys and secret keys](https://developers.cloudflare.com/turnstile/reference/testing/) that Cloudflare provides.

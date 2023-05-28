@@ -14,9 +14,9 @@ return [
     | @see: https://developers.cloudflare.com/turnstile/get-started/#get-a-sitekey-and-secret-key
     |
     */
-    'turnstile_site_key' => env('TRUNSTILE_SITE_KEY', null),
+    'turnstile_site_key' => env('TURNSTILE_SITE_KEY', null),
 
-    'turnstile_secret_key' => env('TRUNSTILE_SECRET_KEY', null),
+    'turnstile_secret_key' => env('TURNSTILE_SECRET_KEY', null),
 
     /*
     |--------------------------------------------------------------------------
