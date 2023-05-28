@@ -1,9 +1,9 @@
 # Laravel Turnstile
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/coderflexx/laravel-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflexx/laravel-turnstile)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/coderflex/laravel-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflexx/laravel-turnstile)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/coderflexx/laravel-turnstile/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/coderflexx/laravel-turnstile/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/coderflexx/laravel-turnstile/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/coderflexx/laravel-turnstile/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/coderflexx/laravel-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflexx/laravel-turnstile)
+[![Total Downloads](https://img.shields.io/packagist/dt/coderflex/laravel-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflex/laravel-turnstile)
 
 __Laravel Turnstile__, is a pacakge to help you implement [cloudflare turnstile](https://developers.cloudflare.com/turnstile/) eaisly, and with no time.
 
