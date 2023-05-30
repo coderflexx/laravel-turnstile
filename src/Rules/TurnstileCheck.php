@@ -13,7 +13,7 @@ class TurnstileCheck implements ValidationRule
      */
     public function validate(string $attribute, mixed $value, Closure $fail): void
     {
-        $response = LaravelTurnstile::validate();
+        $response = LaravelTurnstile::validate($value);
 
         if (! $response['success']) {
             $fail(__(config('turnstile.error_messages.turnstile_check_message')));
