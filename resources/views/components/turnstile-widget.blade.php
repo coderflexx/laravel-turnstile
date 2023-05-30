@@ -16,4 +16,4 @@
     'data-size' => $size,
 ]) }}></div>
 
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
