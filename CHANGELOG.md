@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-turnstile` will be documented in this file.
 
+## v1.0.3 - 2023-05-30
+
+### What's Changed
+
+- Refactoring by @ousid in https://github.com/coderflexx/laravel-turnstile/pull/3
+
+**Full Changelog**: https://github.com/coderflexx/laravel-turnstile/compare/v1.0.2...v1.0.3
+
 ## v1.0.2 - 2023-05-30
 
 ### What's Changed
