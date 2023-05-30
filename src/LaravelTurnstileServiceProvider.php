@@ -19,6 +19,6 @@ class LaravelTurnstileServiceProvider extends PackageServiceProvider
             ->name('laravel-turnstile')
             ->hasConfigFile()
             ->hasViews('turnstile')
-            ->hasViewComponent('turnstile', TurnstileWidget::class);
+            ->hasViewComponent('', TurnstileWidget::class);
     }
 }
