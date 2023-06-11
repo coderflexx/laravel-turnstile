@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/coderflexx/laravel-turnstile/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/coderflexx/laravel-turnstile/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/coderflex/laravel-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflex/laravel-turnstile)
 
-__Laravel Turnstile__, is a pacakge to help you implement [cloudflare turnstile](https://developers.cloudflare.com/turnstile/) eaisly, and with no time.
+__Laravel Turnstile__, is a package to help you implement [cloudflare turnstile](https://developers.cloudflare.com/turnstile/) easily, and with no time.
 
 ## Installation
 
@@ -62,7 +62,7 @@ return [
 ```
 
 
-Optionally, you can publish the views using
+Optionally, you can publish the views using:
 
 ```bash
 php artisan vendor:publish --tag="turnstile-views"
@@ -84,7 +84,7 @@ If you want to test the widget, you can use the [Dummy site keys and secret keys
 
 ### Turnstile Widget Component
 
-Since this package, it is so simple to use. Once you require it, you can use the turnstile widget in your form, like the following
+Once you require this package, you can use the turnstile widget in your form, like the following
 
 ```blade
 <x-turnstile-widget 
