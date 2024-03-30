@@ -10,7 +10,7 @@ class LaravelTurnstile
 {
     protected ?string $url = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
-    public function validate(string $cfResponse = null): array
+    public function validate(?string $cfResponse = null): array
     {
         $turnstileResponse = is_null($cfResponse)
             ? request()->get('cf-turnstile-response')
