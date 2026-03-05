@@ -21,7 +21,7 @@ it('fails validation for invalid input', function () {
         'turnstile_secret_key' => '2x0000000000000000000000000000000AA',
     ]);
 
-    $rule = new TurnstileCheck();
+    $rule = new TurnstileCheck;
 
     $result = $rule->validate('cf-turnstile-response', 'invalid_input', fn () => '');
 
